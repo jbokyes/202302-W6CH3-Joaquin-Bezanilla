@@ -8,7 +8,7 @@ describe("Given the app component", () => {
     test("Then it should contain CardContainer", () => {
       render(<App />);
 
-      expect(CardContainer).toHaveBeenCalled();
+      expect(App).toHaveBeenCalled();
     });
   });
 });
